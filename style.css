@@ -1,0 +1,46 @@
+h1 {
+text-align: center;
+  }
+  h2 {
+    text-align: center;
+      }
+      h3 {
+        text-align: left;
+        width: 800px;
+      }
+      body {
+        font-family:monospace;
+        background-color: aqua;
+        }
+        .faq {
+        width:70%;
+        margin: 0 auto ;
+        }
+        .faq div {
+        border: 1px solid #000;
+        margin: 5px 0px;
+        background-color: bisque;
+        }
+        .question {
+        font-size:18px;
+        background-color: bisque;
+        margin:0px;
+        padding: 15px;
+        }
+        .answer {
+        font-size:12px;
+        margin:0px;
+        padding: 0px 15px;
+        line-height:2;
+        max-height:0px;
+        overflow:hidden;
+        transition:2s;
+        }
+        
+        
+        .opener {
+        font-size:25px;
+        float:right;
+        line-height:0.8;
+        cursor:pointer;
+        }
